@@ -73,6 +73,7 @@ const observer = new IntersectionObserver( (ent) => {
 
 observer.observe(elemRef)
 
+
 listRef.addEventListener('click', (e) => {
     const srcImage = e.target.closest('li').dataset.action
 
